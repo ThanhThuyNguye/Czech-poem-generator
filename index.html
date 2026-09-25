@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Czech Poem Generator</title>
@@ -22,6 +23,7 @@
             required
             autocomplete="off"
             class="instruction"
+            id="user-instructions"
           />
           <input type="submit" value="Submit" class="submit-button" />
         </form>
